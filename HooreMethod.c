@@ -15,7 +15,7 @@ int main(void)
         for(i=0;i<n;i++)
         printf("%d\n",A[i]);
         quicksort(A,0,n-1);
-        printf("After sorting the array is ");
+        printf("After sorting the array is: ");
         for(i=0;i<n;i++)
         printf("%d\n",A[i]);
 }
