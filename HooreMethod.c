@@ -5,17 +5,17 @@ int partition(int A[],int p,int r);
 int main(void)
 {
         int i,n,A[100];
-        printf("enter the size of array:");
+        printf("enter the size of array: ");
         scanf("%d",&n);
 
         for(i=0;i<n;i++)
 
         A[i]=(rand()%(100-0))+0;
-        printf("The elements in array is:");
+        printf("The elements in array is: ");
         for(i=0;i<n;i++)
         printf("%d\n",A[i]);
         quicksort(A,0,n-1);
-        printf("After sorting the array is");
+        printf("After sorting the array is ");
         for(i=0;i<n;i++)
         printf("%d\n",A[i]);
 }
